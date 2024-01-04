@@ -1,0 +1,21 @@
+#+TITLE: Establish PostgreSQL connection
+
+* Introduction
+
+The project's intention is to take advantage of the CMake build system
+to find PostgreSQL and add it as a target for a C file(testlibpq.c).
+
+The establishing of a connection with the PostgreSQL database and printing of
+*pg database* table using PostgreSQL library “libpq”.
+
+* Key skills
+
+- CMake
+- C Programming
+  
+* References
+
+- Example program: https://www.postgresql.org/docs/9.5/libpq-example.html
+- CMake: https://cmake.org/cmake/help/latest/guide/tutorial/index.html
+- CMake find package: https://cmake.org/cmake/help/latest/command/find_package.html
+- Github cmake module: https://github.com/Kitware/CMake/blob/31dead97edb03d568c2e66d88422fa3a7806a253/Modules/FindPostgreSQL.cmake#L50C1-L50C1
